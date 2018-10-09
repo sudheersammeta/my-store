@@ -3,7 +3,7 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 //import Main from './components/main';
 import Router from './Router';
-import {Container, Row, Col} from 'reactstrap';
+import {Row, Col} from 'reactstrap';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
       <Header />
         <Row >
           <Col xs="2"><Sidebar /></Col>
-          <Col auto><Router /> </Col>
+          <Col auto="true"><Router /> </Col>
         </Row>
       </div>
     );

@@ -7,6 +7,7 @@ import AboutUs from './components/about-us';
 import ContactUs from './components/contact-us';
 import Services from './components/services';
 import Resources from './components/resources';
+import {Inventory} from './components/inventory';
 
 const Router = () => (
 	<Switch>
@@ -14,6 +15,7 @@ const Router = () => (
 		<Route exact path="/resources/"  component = {Resources} />
 		<Route exact path="/about-us/"  component = {AboutUs} />
 		<Route exact path="/contact-us/"  component = {ContactUs} />
+		<Route exact path="/inventory/"  component = {Inventory} />
 	</Switch>
 	);
 
